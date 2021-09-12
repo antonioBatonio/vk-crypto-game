@@ -16,7 +16,7 @@ const Crypto = require('vk-crypto-game');
 const crypto = new Crypto();
 
 (async () =>{
-    const result = await crypto.transfer(594328860)
+    const result = await crypto.getUserBalance(594328860)
     console.log(result)
 })()
 ```
